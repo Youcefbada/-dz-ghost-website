@@ -118,6 +118,51 @@ export const content = {
             stat1: "90% Qualité de Match",
             stat2: "-30% Commandes Fake",
         },
+        whyUs: {
+            title: "Pourquoi DZ-Ghost et Pas Les Autres ?",
+            subtitle: "La Différence Est Claire.",
+            items: [
+                { title: "Construit Pour l'Algérie", desc: "Pas un outil américain adapté. Conçu dès le départ pour le COD, les Wilayas et les transporteurs algériens.", icon: "flag" },
+                { title: "Vous Êtes Propriétaire", desc: "Installez sur votre serveur. Vos données, votre entreprise, votre liberté. Pas de dépendance SaaS.", icon: "key" },
+                { title: "Intelligence Intégrée", desc: "L'IA analyse vos campagnes et données automatiquement. Pas besoin d'être expert en marketing.", icon: "brain" },
+                { title: "Support Local", desc: "Équipe francophone/arabophone qui comprend le marché local et vos défis quotidiens.", icon: "headphones" },
+                { title: "Mises à Jour Constantes", desc: "Nous évoluons avec les changements de Facebook, iOS et les transporteurs. Vous restez toujours à jour.", icon: "refresh" },
+                { title: "Communauté Active", desc: "Rejoignez des centaines de vendeurs COD algériens qui partagent stratégies et bonnes pratiques.", icon: "users" }
+            ]
+        },
+        stats: {
+            title: "Les Chiffres Parlent",
+            items: [
+                { value: "500+", label: "Boutiques Actives" },
+                { value: "2M+", label: "Commandes Traitées" },
+                { value: "9/10", label: "Match Quality Score" },
+                { value: "4x", label: "ROAS Moyen Après Installation" }
+            ]
+        },
+        testimonials: {
+            title: "Ce Que Disent Nos Clients",
+            items: [
+                { name: "Ahmed K.", role: "Vendeur COD - Alger", quote: "Avant DZ-Ghost, je perdais 40% de mon budget pub. Maintenant mon ROAS est passé de 1.2 à 4.5. C'est un autre monde." },
+                { name: "Sarah M.", role: "Agence E-commerce", quote: "On gère 15 boutiques avec la licence Escouade. Le temps gagné sur la logistique est incroyable." },
+                { name: "Youcef B.", role: "Dropshipper - Oran", quote: "L'intégration Yalidine seule vaut le prix. Un clic et c'est expédié. Plus d'erreurs manuelles." }
+            ]
+        },
+        faq: {
+            title: "Questions Fréquentes",
+            items: [
+                { q: "Est-ce que ça marche avec mon thème WordPress ?", a: "Oui, DZ-Ghost est compatible avec tous les thèmes WordPress/WooCommerce. Le checkout s'injecte automatiquement." },
+                { q: "J'ai besoin de compétences techniques ?", a: "Non. L'installation prend 5 minutes. Téléversez le plugin, activez, configurez votre pixel. C'est tout." },
+                { q: "Comment fonctionne le support ?", a: "Support par WhatsApp et email en français/arabe. Réponse sous 24h pour les licences standard, prioritaire pour les Escouades." },
+                { q: "Puis-je migrer depuis Shopify ?", a: "Absolument. On vous aide à transférer vos produits et données. C'est inclus dans l'installation." },
+                { q: "Et si Facebook change encore son API ?", a: "On met à jour le plugin à chaque changement. Vous recevez les updates automatiquement." }
+            ]
+        },
+        ctaBanner: {
+            title: "Prêt à Dominer Votre Marché ?",
+            subtitle: "Rejoignez 500+ vendeurs COD qui ont fait le switch.",
+            cta: "Commencer Maintenant",
+            secondary: "Voir la Démo"
+        },
         footer: {
             copyright: "© 2026 DZ-Ghost. La Machine de Guerre E-commerce.",
             links: ["Documentation", "Support", "Tarifs"],
@@ -241,6 +286,51 @@ export const content = {
             title: "من الخسارة إلى 4 أضعاف العائد",
             stat1: "90% جودة المطابقة",
             stat2: "-30% طلبات وهمية",
+        },
+        whyUs: {
+            title: "لماذا DZ-Ghost وليس غيره؟",
+            subtitle: "الفرق واضح.",
+            items: [
+                { title: "مصمم للجزائر", desc: "ليس أداة أمريكية معدلة. صُمم من البداية للدفع عند الاستلام والولايات وشركات الشحن الجزائرية.", icon: "flag" },
+                { title: "أنت المالك", desc: "ثبّت على سيرفرك الخاص. بياناتك، عملك، حريتك. لا اعتماد على SaaS.", icon: "key" },
+                { title: "ذكاء مدمج", desc: "الذكاء الاصطناعي يحلل حملاتك تلقائياً. لا حاجة لتكون خبير تسويق.", icon: "brain" },
+                { title: "دعم محلي", desc: "فريق يتحدث العربية والفرنسية ويفهم السوق المحلي وتحدياتك.", icon: "headphones" },
+                { title: "تحديثات مستمرة", desc: "نتطور مع تغييرات فيسبوك وiOS وشركات الشحن. ستبقى دائماً محدثاً.", icon: "refresh" },
+                { title: "مجتمع نشط", desc: "انضم لمئات بائعي COD الجزائريين الذين يشاركون الاستراتيجيات.", icon: "users" }
+            ]
+        },
+        stats: {
+            title: "الأرقام تتحدث",
+            items: [
+                { value: "+500", label: "متجر نشط" },
+                { value: "+2M", label: "طلب تمت معالجته" },
+                { value: "9/10", label: "جودة المطابقة" },
+                { value: "4x", label: "متوسط ROAS بعد التثبيت" }
+            ]
+        },
+        testimonials: {
+            title: "ماذا يقول عملاؤنا",
+            items: [
+                { name: "أحمد ك.", role: "بائع COD - الجزائر", quote: "قبل DZ-Ghost كنت أخسر 40% من ميزانية الإعلان. الآن ROAS ارتفع من 1.2 إلى 4.5. عالم آخر." },
+                { name: "سارة م.", role: "وكالة تجارة إلكترونية", quote: "ندير 15 متجر برخصة الفرقة. الوقت الموفر في اللوجستيات لا يُصدق." },
+                { name: "يوسف ب.", role: "Dropshipper - وهران", quote: "ربط Yalidine وحده يستحق السعر. نقرة واحدة ويتم الشحن. لا أخطاء يدوية." }
+            ]
+        },
+        faq: {
+            title: "الأسئلة الشائعة",
+            items: [
+                { q: "هل يعمل مع قالب WordPress الخاص بي؟", a: "نعم، DZ-Ghost متوافق مع جميع قوالب WordPress/WooCommerce. يتم حقن نموذج الدفع تلقائياً." },
+                { q: "هل أحتاج مهارات تقنية؟", a: "لا. التثبيت يستغرق 5 دقائق. ارفع الإضافة، فعّلها، اضبط البكسل. انتهى." },
+                { q: "كيف يعمل الدعم؟", a: "دعم عبر واتساب والبريد بالعربية/الفرنسية. رد خلال 24 ساعة للرخص العادية، أولوية للفرق." },
+                { q: "هل يمكنني الانتقال من Shopify؟", a: "بالتأكيد. نساعدك في نقل منتجاتك وبياناتك. هذا مشمول في التثبيت." },
+                { q: "ماذا لو غيّر فيسبوك API مجدداً؟", a: "نحدّث الإضافة مع كل تغيير. تحصل على التحديثات تلقائياً." }
+            ]
+        },
+        ctaBanner: {
+            title: "مستعد للسيطرة على سوقك؟",
+            subtitle: "انضم لـ 500+ بائع COD انتقلوا إلى DZ-Ghost.",
+            cta: "ابدأ الآن",
+            secondary: "شاهد العرض التوضيحي"
         },
         footer: {
             copyright: "© 2026 DZ-Ghost. آلة الحرب للتجارة الإلكترونية.",
