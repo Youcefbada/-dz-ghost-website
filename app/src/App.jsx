@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import Layout from './components/Layout';
 import Hero from './components/Hero';
+import WhyNeedSection from './components/WhyNeedSection';
 import UsVsThem from './components/UsVsThem';
 import DashboardShowcase from './components/DashboardShowcase';
+import AdminFeaturesSection from './components/AdminFeaturesSection';
+import CheckoutFeaturesSection from './components/CheckoutFeaturesSection';
 import SecuritySection from './components/detailed/SecuritySection';
 import ConversionSection from './components/detailed/ConversionSection';
 import AnalyticsSection from './components/detailed/AnalyticsSection';
@@ -22,12 +25,19 @@ function App() {
 
   return (
     <Layout lang={lang} setLang={setLang}>
-      {/* Hero */}
+      {/* Hero - Centered Text */}
       <Hero lang={lang} />
+
+      {/* Why You Need DZ-Ghost */}
+      <WhyNeedSection lang={lang} />
 
       {/* Intro Sections */}
       <UsVsThem lang={lang} />
       <DashboardShowcase lang={lang} />
+
+      {/* Admin & Checkout Features */}
+      <AdminFeaturesSection lang={lang} />
+      <CheckoutFeaturesSection lang={lang} />
 
       {/* Core Features (Detailed) */}
       <div id="features" className="space-y-0 bg-bg-deep relative z-10">
@@ -52,7 +62,9 @@ function App() {
       </div>
 
       {/* FAQ */}
-      <FAQSection lang={lang} />
+      <div id="faq">
+        <FAQSection lang={lang} />
+      </div>
 
       {/* Final CTA */}
       <CTABanner lang={lang} />
