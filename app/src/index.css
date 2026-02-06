@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #B042FF;
+  --color-bg-dark: #030014;
+  --color-bg-deep: #0F0518;
+  --color-accent: #10b981;
+  /* Green for success */
+  --color-danger: #ef4444;
+  /* Red for kill/bot */
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-arabic: "Tajawal", system-ui, sans-serif;
+
+  --animate-glitch: glitch 1s linear infinite;
+  --animate-scanner: scanner 2s linear infinite;
+
+  @keyframes glitch {
+
+    2%,
+    64% {
+      transform: translate(2px, 0) skew(0deg);
+    }
+
+    4%,
+    60% {
+      transform: translate(-2px, 0) skew(0deg);
+    }
+
+    62% {
+      transform: translate(0, 0) skew(5deg);
+    }
+  }
+
+  @keyframes scanner {
+    0% {
+      top: 0;
+      opacity: 0;
+    }
+
+    10% {
+      opacity: 1;
+    }
+
+    90% {
+      opacity: 1;
+    }
+
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+}
+
+body {
+  background: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-deep));
+  color: white;
+  font-family: var(--font-sans);
+}
+
+.glass-card {
+  background: rgba(15, 5, 24, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(176, 66, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(176, 66, 255, 0.5), 0 0 20px rgba(176, 66, 255, 0.3);
+}
+
+.border-glow {
+  box-shadow: 0 0 15px rgba(176, 66, 255, 0.3), inset 0 0 10px rgba(176, 66, 255, 0.1);
+}
