@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Layout from './components/Layout';
 import Hero from './components/Hero';
 import WhyNeedSection from './components/WhyNeedSection';
@@ -71,6 +72,7 @@ function App() {
 
       {/* Social Proof Graph */}
       <SocialProof lang={lang} />
+      <SpeedInsights />
     </Layout>
   );
 }
